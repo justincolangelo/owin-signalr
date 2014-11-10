@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSignalR", "OwinSignalR\OwinSignalR.csproj", "{A3AEECE6-1D1E-4A11-A919-316AAC8B17EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSignalRJavascript", "OwinSignalRJavascript\OwinSignalRJavascript.csproj", "{2E380712-7AAB-4263-ACAA-4B0509D4A7FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3AEECE6-1D1E-4A11-A919-316AAC8B17EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AEECE6-1D1E-4A11-A919-316AAC8B17EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AEECE6-1D1E-4A11-A919-316AAC8B17EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AEECE6-1D1E-4A11-A919-316AAC8B17EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E380712-7AAB-4263-ACAA-4B0509D4A7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E380712-7AAB-4263-ACAA-4B0509D4A7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E380712-7AAB-4263-ACAA-4B0509D4A7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E380712-7AAB-4263-ACAA-4B0509D4A7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

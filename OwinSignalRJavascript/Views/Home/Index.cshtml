@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Owin SignalR Chat</title>
+    <link rel="stylesheet" href="/CSS/chat.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="message" />
+        <input type="button" id="sendmessage" value="Send" />
+        <input type="hidden" id="displayname" />
+        <ul id="discussion"></ul>
+    </div>
+
+    <script src="/Scripts/jquery-1.11.1.min.js"></script>
+    <script src="/Scripts/jquery.signalR-2.1.2.min.js"></script>
+    <script src="http://localhost:666/signalr/hubs"></script>
+
+    <script src="/Scripts/chat.js"></script>
+</body>
+</html>
